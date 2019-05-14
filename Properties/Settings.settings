@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DevHelper.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="serverFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NULL</Value>
+    </Setting>
+    <Setting Name="botFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NULL</Value>
+    </Setting>
+    <Setting Name="unityFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NULL</Value>
+    </Setting>
+    <Setting Name="botFile2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NULL</Value>
+    </Setting>
+    <Setting Name="botFile3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NULL</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
