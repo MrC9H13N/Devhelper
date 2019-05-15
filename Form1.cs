@@ -615,6 +615,7 @@ namespace DevHelper
 
         private void button15_Click(object sender, EventArgs e)
         {
+            string tempString;
             string tempDir = Properties.Settings.Default.unityFile;
             int index = tempDir.LastIndexOf(@"\");
             if (index > 0)
@@ -623,9 +624,13 @@ namespace DevHelper
 
             if ((string)listBox1.SelectedItem == "Autre")
             {
+                tempString = textBox5.Text;
+                tempString.Replace("/bot", "/display");
                 System.IO.File.WriteAllText(@tempDir, textBox5.Text);
             } else
             {
+                tempString = (string)listBox1.SelectedItem;
+                tempString.Replace("/bot", "/display");
                 System.IO.File.WriteAllText(@tempDir, (string)listBox1.SelectedItem);
             }
 
